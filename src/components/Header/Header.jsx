@@ -26,7 +26,7 @@ function Header() {
                </li>
                <li className="top-menu-item ">
                   <span className="" href="#">
-                     Our Products
+                     Products
                   </span>
                </li>
                <li className="top-menu-item ">

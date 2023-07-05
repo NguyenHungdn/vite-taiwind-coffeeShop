@@ -1,11 +1,10 @@
 import reactLogo from '../../assets/menu.svg';
 import reactLogo2 from '../../assets/cart.svg';
-
+import Slide from './Slider';
 function BodyPage() {
    return (
       <div>
-         <img className="w-5 h-5" src={reactLogo} alt="" />
-         <img className="w-5 h-5" src={reactLogo2} alt="" />
+         <Slide />
       </div>
    );
 }
