@@ -14,44 +14,44 @@ function Header() {
                CoffeeStyle.
             </div>
             <ul
-               id="top-menu"
+               id="ata-topMenu"
                className={`${toggle ? 'hidden ' : ''} ${
-                  toggle ? '' : 'topMenu-toggle'
+                  toggle ? '' : 'ata-top-menu-toggle'
                } basis-3/6  lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium`}
             >
-               <li className="cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:bg-neutral-800 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-500">
+               <li className="ata-topMenu-item ">
                   <span className="" href="#">
                      Home
                   </span>
                </li>
-               <li className="top-menu-item ">
+               <li className="ata-topMenu-item ">
                   <span className="" href="#">
                      Products
                   </span>
                </li>
-               <li className="top-menu-item ">
+               <li className="ata-topMenu-item ">
                   <span className="" href="#">
                      Blog
                   </span>
                </li>
-               <li className="top-menu-item ">
+               <li className="ata-topMenu-item ">
                   <span className="" href="#">
                      About
                   </span>
                </li>
-               <li className="top-menu-item ">
+               <li className="ata-topMenu-item ">
                   <span className="" href="#">
                      Contact
                   </span>
                </li>
-               <li className="top-menu-item top-menu-item-active  ">
+               <li className="ata-topMenu-item ata-topMenu-item-active  ">
                   <span className="" href="#">
                      StyleGuide
                   </span>
                </li>
             </ul>
             <ul className=" basis-3/6 lg:basis-1/6 flex  justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
-               <li className="top-menu-item ">
+               <li className="ata-topMenu-item ">
                   <a href="" className="flex items-center">
                      <span className="w-5 h-5">
                         <img src={cartLogo} alt="" />
