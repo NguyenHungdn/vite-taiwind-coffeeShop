@@ -1,6 +1,6 @@
 import menuLogo from '../../assets/menu.svg';
 import cartLogo from '../../assets/cart.svg';
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 function Header() {
    const [toggle, setToggle] = useState(true);
    const handleClick = () => {
@@ -15,36 +15,36 @@ function Header() {
             </div>
             <ul
                id="ata-topMenu"
-               className={`${toggle ? 'hidden ' : ''} ${
-                  toggle ? '' : 'ata-top-menu-toggle'
-               } basis-3/6  lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium`}
+               className={`${
+                  toggle ? 'hidden ' : ''
+               }  basis-3/6  lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium`}
             >
-               <li className="ata-topMenu-item ">
+               <li className="ata-top-menu-item ">
                   <span className="" href="#">
                      Home
                   </span>
                </li>
-               <li className="ata-topMenu-item ">
+               <li className="ata-top-menu-item ">
                   <span className="" href="#">
                      Products
                   </span>
                </li>
-               <li className="ata-topMenu-item ">
+               <li className="ata-top-menu-item ">
                   <span className="" href="#">
                      Blog
                   </span>
                </li>
-               <li className="ata-topMenu-item ">
+               <li className="ata-top-menu-item ">
                   <span className="" href="#">
                      About
                   </span>
                </li>
-               <li className="ata-topMenu-item ">
+               <li className="ata-top-menu-item ">
                   <span className="" href="#">
                      Contact
                   </span>
                </li>
-               <li className="ata-topMenu-item ata-topMenu-item-active  ">
+               <li className="ata-topMenu-item ata-top-menu-item  ">
                   <span className="" href="#">
                      StyleGuide
                   </span>

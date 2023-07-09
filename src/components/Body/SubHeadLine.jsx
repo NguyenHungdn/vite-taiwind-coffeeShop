@@ -1,5 +1,4 @@
 function SubHeadLine(props) {
-   console.log(props);
    return (
       <div className="flex justify-center items-center  mb-24">
          <div className="w-8 h-px bg-gray-200"></div>
