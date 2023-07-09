@@ -5,7 +5,7 @@ import FeatureMug from './FeatureMug';
 import MoreProduct from './MoreProduct';
 function BodyPage() {
    return (
-      <div>
+      <div data-aos="fade-up">
          <Slide />
          <Story />
          <SubHeadLine data={'FEATURED MUGS'} />

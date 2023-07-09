@@ -1,6 +1,12 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+AOS.init();
 function FeatureMug() {
    return (
-      <div className="featured-mug w-[95%] lg:w-[65%] mx-auto mb-40">
+      <div
+         data-aos="fade-up"
+         className="featured-mug w-[95%] lg:w-[65%] mx-auto mb-40"
+      >
          <div className="grid grid-cols-1 gap-32 lg:grid-cols-2 lg:gap-4">
             <div className="product-card">
                <div className=" sm:h-[540px] h-[400px] bg-[url('./assets/featured-mug1.jpg')] bg-no-repeat bg-cover bg-center">

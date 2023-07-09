@@ -16,8 +16,8 @@ function Header() {
             <ul
                id="ata-topMenu"
                className={`${
-                  toggle ? 'hidden ' : ''
-               }  basis-3/6  lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium`}
+                  toggle ? 'hidden   ' : 'ata-top-menu-toggle '
+               }  basis-3/6  items-center lg:flex lg:items-center lg:justify-center lg:gap-8 uppercase text-sm text-gray-500 font-medium`}
             >
                <li className="ata-top-menu-item ">
                   <span className="" href="#">
