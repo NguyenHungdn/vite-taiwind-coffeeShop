@@ -1,5 +1,5 @@
 import Slide from './Slider';
-import Story from './story';
+import Story from './Story';
 import SubHeadLine from './SubHeadLine';
 import FeatureMug from './FeatureMug';
 import MoreProduct from './MoreProduct';
