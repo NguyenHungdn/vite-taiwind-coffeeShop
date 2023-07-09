@@ -1,7 +1,6 @@
-import slider from '../../assets/slider-bg.jpeg';
 function Slide() {
    return (
-      <div className="slide h-[530px] bg-[url(./assets/slider-bg.jpeg)]  bg-cover  bg-no-repeat bg-bottom">
+      <div className="slide h-[530px] bg-[url(./assets/slider-bg.jpeg)]  bg-cover  bg-no-repeat bg-bottom ">
          <div className="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
             <div className="mx-16 text-white text-center ">
                <div className="uppercase  mb-6">best place to buy coffee</div>
