@@ -1,4 +1,4 @@
-function Magazine() {
+function MagazineCoffee() {
    return (
       <div className="coffee-magazine w-[99%] xl:w-[65%] mx-auto mb-24">
          <div className="  flex md:flex-row  md:gap-5 flex-col md:order-1 order-2  ">
@@ -34,4 +34,4 @@ function Magazine() {
    );
 }
 
-export default Magazine;
+export default MagazineCoffee;
