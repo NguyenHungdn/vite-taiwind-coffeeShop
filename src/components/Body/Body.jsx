@@ -4,6 +4,7 @@ import SubHeadLine from './SubHeadLine';
 import FeatureMug from './FeatureMug';
 import MoreProduct from './MoreProduct';
 import MagazineCoffee from './MagazineCoffee';
+import Parallax from './Parallax';
 function BodyPage() {
    return (
       <div data-aos="fade-up">
@@ -15,6 +16,7 @@ function BodyPage() {
          <MoreProduct />
          <SubHeadLine data={'BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE'} />
          <MagazineCoffee />
+         <Parallax />
          <SubHeadLine data={'BEHIND THE MUGS, LIFESTYLE STORIES'} />
       </div>
    );

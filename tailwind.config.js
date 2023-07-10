@@ -1,14 +1,20 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 export default {
    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
    theme: {
+      screens: {
+         xs: '480px',
+         // => @media (min-width: 480px) { ... }
+
+         ...defaultTheme.screens,
+      },
       extend: {
          fontFamily: {
             Karla: ['Karla', 'sans-serif'],
          },
-         backgroundImage: {
-            'cart-icon': "url('/assets/cart.svg')",
-         },
+         backgroundImage: {},
          keyframes: {
             slideDown: {
                '0%': {
