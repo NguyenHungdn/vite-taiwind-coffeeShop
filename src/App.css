@@ -16,6 +16,9 @@
    @apply w-5 h-5 inline-block;
 }
 
+.ata-sub-head-line-label {
+   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+}
 .ata-button {
-   @apply text-center uppercase tracking-wider py-4 text-[13px] font-semibold cursor-pointer hover:bg-opacity-90;
+   @apply text-center uppercase tracking-wider p-4 text-[13px] font-semibold cursor-pointer hover:bg-opacity-90;
 }
