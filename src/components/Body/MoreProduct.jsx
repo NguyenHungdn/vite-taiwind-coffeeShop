@@ -1,7 +1,7 @@
 import { PRODUCTS } from '../PRODUCTS';
 function MoreProduct() {
    return (
-      <div className=" more-product w-[98%] xl:w-[65%]  mx-auto mb-16 ">
+      <div className=" more-product w-[98%] xl:w-[65%]  mx-auto mb-16 mt-24 ">
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 text-center ">
             {PRODUCTS &&
                PRODUCTS.map((product) => {

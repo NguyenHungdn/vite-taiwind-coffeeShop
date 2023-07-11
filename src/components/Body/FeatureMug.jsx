@@ -5,7 +5,7 @@ function FeatureMug() {
    return (
       <div
          data-aos="fade-up"
-         className="featured-mug w-[95%] lg:w-[65%] mx-auto mb-40"
+         className="featured-mug w-[95%] lg:w-[65%] mx-auto mb-40 mt-24"
       >
          <div className="grid grid-cols-1 gap-32 lg:grid-cols-2 lg:gap-4">
             <div className="product-card">
