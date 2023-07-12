@@ -25,7 +25,7 @@ const dataStyleLife = [
 
 function LifeStyle() {
    return (
-      <div className=" grid grid-cols-3 w-[95%] lg:w-[65%] mx-auto mb-4 md:gap8 gap-4">
+      <div className=" grid lg:grid-cols-3 md:grid-cols-2 w-[95%] lg:w-[65%]  mx-auto mb-4 md:gap8 gap-4">
          {dataStyleLife.map((data) => (
             <div className="">
                <div
