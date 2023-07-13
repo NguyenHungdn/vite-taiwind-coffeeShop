@@ -1,6 +1,6 @@
 function MagazineCoffee() {
    return (
-      <div className="coffee-magazine w-[99%] xl:w-[65%] mx-auto md:mb-24 mb-16 mt-24">
+      <div className="coffee-magazine w-[98%] xl:w-[65%] mx-auto md:mb-24 mb-16 mt-24">
          <div className="  flex md:flex-row  md:gap-5 flex-col md:order-1 order-2  ">
             <div className=" ata-magazine-post md:basis-1/2 md:pl-[60px] h-[280px] order-2 md:text-center  ">
                <div className="  tracking-widest md:text-left text-center text-gray-500 font-medium text-xs md:mt-3 mb-[10px] ">
